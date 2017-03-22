@@ -1,0 +1,19 @@
+1. To enhance the Recipe Display Application for my recipe, I left only the click 
+    function as my event feature. I thought the 'toggle' animation was too fast for 
+    the user to read amount of information given on the page even with the animation
+    being on the slow option. Thus, the click function provides a cleaner look as 
+    the user can access the information on the page in a neat fashion.
+2. Additionally, the recipe display application remains enhanced by the colored 
+    background change when a user hovers over the "Ingredients" or "Instructions"
+    header. By coloring the background when a user hovers over the headers, this 
+    will signal the user that the headings are interactive. The "yellow" colored 
+    heading tells the user that they are able to click on the heading. The "pink" 
+    colored heading tells the user that they have clicked on the heading and should 
+    now be viewing the information for the ingredients, instructions, or both.
+3. While using the Google Developer tools, the recipe display application will 
+    perform at least one DOM transversal statement. During my trial of a DOM
+    transversal statement, I entered the statement <b> $("li").html("yum yum yum")</b>
+    in the JavaScript Console located in the Google Developer tools. This statement 
+    should change all of the ingredients to the words "yum yum yum". After entering 
+    the code into the JavaScript Console for my recipe display application, the trial
+    was successful. The all the listed ingredients did indeed change to "yum yum yum". 
